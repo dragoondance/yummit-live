@@ -1,0 +1,54 @@
+.home_banner_area {
+    background-image: url("nexus/nexus/headerImg.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: 110%;
+    background-position-y: 120px;
+    padding-bottom: 5%;
+  }
+
+  .justify-content-end{
+
+    text-align: right;
+  }
+  .made_life_area{
+    
+        background-image: url("nexus/nexus/header2Img.png");
+        background-size: 50%;
+        background-repeat: no-repeat;
+     
+
+        padding-bottom: 5%;
+      
+    
+  }
+
+  @media (max-width: 1199px){
+    .made_life_area{
+    
+        background-image: url("nexus/nexus/header2Img.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+     
+
+        padding-bottom: 5%;
+      
+    
+  }
+  }
+
+  @media (max-width: 1199px){
+      .home_banner_area{
+        background-image: url("nexus/nexus/headerImg.png");
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position-x: 160%;
+        background-position-y: 170px;
+      }
+  }
+
+  @media (max-width: 991px){
+    .home_banner_area{
+      background-image: none;
+    }
+}
